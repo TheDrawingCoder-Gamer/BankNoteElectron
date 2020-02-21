@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Banknote</title>
+  </head>
+  <body>
+
+    <h1> Bank Note Giver </h1>
+      <h2 id="code"></h2>
+    <button id="btn" type="button" class="buttn">Get code</button>
+    <form>
+      To validize:</br>
+      <textarea name="addTo" id="textBox"></textarea>
+      <button id="validButton" class="buttn" type="button"> Append </button>
+    </form>
+
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
