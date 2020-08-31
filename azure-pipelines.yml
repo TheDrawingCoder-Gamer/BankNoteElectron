@@ -17,5 +17,5 @@ steps:
 
 - script: |
     npm install
-    npm run build
+    npx electron .
   displayName: 'npm install and build'
